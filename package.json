@@ -1,5 +1,5 @@
 {
-  "name": "preconfigured-nextjs-app",
+  "name": "registry-provider",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -12,25 +12,29 @@
   },
   "dependencies": {
     "@radix-ui/react-checkbox": "^1.1.4",
+    "@radix-ui/react-label": "^2.1.1",
     "@radix-ui/react-slot": "^1.1.2",
+    "better-auth": "^1.2.7",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "0.479.0",
     "next": "14.2.3",
+    "next-themes": "^0.4.4",
+    "pg": "^8.15.6",
     "pino": "9.6.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "shadcn-ui": "^0.9.5",
     "shadcn": "2.4.0-canary.12",
+    "shadcn-ui": "^0.9.5",
+    "sonner": "^2.0.3",
     "tailwind-merge": "^3.0.2",
-    "zustand": "^4.5.2",
-    "@radix-ui/react-label": "^2.1.1",
-    "next-themes": "^0.4.4",
     "tailwindcss-animate": "^1.0.7",
-    "zod": "^3.24.1"
+    "zod": "^3.24.1",
+    "zustand": "^4.5.2"
   },
   "devDependencies": {
     "@types/node": "^20",
+    "@types/pg": "^8.15.1",
     "@types/react": "^18.3.0",
     "@types/react-dom": "^18.3.0",
     "@typescript-eslint/eslint-plugin": "^8.26.1",

@@ -4,6 +4,45 @@
   "homepage": "https://acme.com",
   "items": [
     {
+      "name": "authentification",
+      "type": "registry:component",
+      "title": "Authentification",
+      "description": "A simple authentification component",
+      "registryDependencies": [
+        "better-auth",
+        "pg",
+        "sonner",
+        "button",
+        "input",
+        "label",
+        "textarea",
+        "card"
+      ],
+      "files": [
+        {
+          "path": "registry/new-york/authentification/components/auth/sign-in.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/new-york/authentification/components/auth/sign-up.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/new-york/authentification/lib/auth-client.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/new-york/authentification/lib/auth.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/new-york/authentification/pages/api/auth/[...all]/route.ts",
+          "type": "registry:page",
+          "target": "app/api/auth/[...all]/route.ts"
+        }
+      ]
+    },
+    {
       "name": "hello-world",
       "type": "registry:component",
       "title": "Hello World",
