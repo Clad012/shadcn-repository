@@ -13,7 +13,6 @@ function PokemonCardContainer({ name }: { name: string }) {
         <div className="h-40 rounded-lg bg-gray-100 animate-pulse"></div>
       }
     >
-      {/* @ts-ignore - Async Server Component */}
       <PokemonCard name={name} />
     </Suspense>
   );
