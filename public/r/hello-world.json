@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "hello-world",
+  "type": "registry:component",
+  "title": "Hello World",
+  "description": "A simple hello world component",
+  "registryDependencies": [
+    "button"
+  ],
+  "files": [
+    {
+      "path": "registry/new-york/hello-world/hello-world.tsx",
+      "content": "export function HelloWorld() {\n  return <h1 className=\"text-2xl font-bold\">Hello World</h1>\n}\n",
+      "type": "registry:component"
+    },
+    {
+      "path": "registry/new-york/hello-world/api/api.ts",
+      "content": "export async function getHelloWorld() {\n  return {\n    message: \"Hello World\",\n  };\n}\n",
+      "type": "registry:file",
+      "target": "~/.env"
+    }
+  ]
+}
