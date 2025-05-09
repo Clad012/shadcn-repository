@@ -48,9 +48,6 @@ export default function Home() {
             </h2>
             <OpenInV0Button name="complex-component" className="w-fit" />
           </div>
-          <div className="flex items-center justify-center min-h-[400px] relative">
-            <PokemonPage />
-          </div>
         </div>
       </main>
     </div>
