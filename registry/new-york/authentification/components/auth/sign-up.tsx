@@ -18,7 +18,7 @@ import { signUp } from "@/registry/new-york/authentification/lib/auth-client";
 import { toast } from "sonner";
 import { useRouter } from "next/navigation";
 
-export default function SignUp() {
+export function SignUp() {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");

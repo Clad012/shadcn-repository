@@ -15,10 +15,8 @@ import { Checkbox } from "@/components/ui/checkbox";
 import { useState } from "react";
 import { Loader2, Key } from "lucide-react";
 import { signIn } from "@/registry/new-york/authentification/lib/auth-client";
-import Link from "next/link";
-import { cn } from "@/lib/utils";
 
-export default function SignIn() {
+export function SignIn() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
