@@ -9,6 +9,9 @@
     "pg",
     "sonner"
   ],
+  "devDependencies": [
+    "@types/pg"
+  ],
   "registryDependencies": [
     "button",
     "input",

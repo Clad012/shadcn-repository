@@ -8,6 +8,7 @@
       "type": "registry:component",
       "title": "Authentification",
       "description": "A simple authentification component",
+      "devDependencies": ["@types/pg"],
       "dependencies": ["better-auth", "pg", "sonner"],
       "registryDependencies": ["button", "input", "label", "textarea", "card"],
       "files": [
