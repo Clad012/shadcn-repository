@@ -35,20 +35,16 @@
       ]
     },
     {
-      "name": "hello-world",
+      "name": "hero-section",
       "type": "registry:component",
-      "title": "Hello World",
-      "description": "A simple hello world component",
+      "title": "Hero Section",
+      "description": "A hero section component",
+      "dependencies": ["lucide-react"],
       "registryDependencies": ["button"],
       "files": [
         {
-          "path": "registry/new-york/hello-world/hello-world.tsx",
+          "path": "registry/new-york/hero-section/components/hero-section/hero-section.tsx",
           "type": "registry:component"
-        },
-        {
-          "path": "registry/new-york/hello-world/api/api.ts",
-          "target": "~/.env",
-          "type": "registry:file"
         }
       ]
     },

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "hero-section",
+  "type": "registry:component",
+  "title": "Hero Section",
+  "description": "A hero section component",
+  "dependencies": [
+    "lucide-react"
+  ],
+  "registryDependencies": [
+    "button"
+  ],
+  "files": [
+    {
+      "path": "registry/new-york/hero-section/components/hero-section/hero-section.tsx",
+      "content": "import { Button } from \"@/components/ui/button\";\nimport { ArrowRight } from \"lucide-react\";\n\nexport function HeroSection() {\n  return (\n    <section className=\"w-full py-12 md:py-24 lg:py-32 xl:py-48\">\n      <div className=\"container px-4 md:px-6\">\n        <div className=\"grid gap-6 lg:grid-cols-2 lg:gap-12 xl:grid-cols-2\">\n          <div className=\"flex flex-col justify-center space-y-4\">\n            <div className=\"space-y-2\">\n              <h1 className=\"text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none\">\n                The Future of Web Development\n              </h1>\n              <p className=\"max-w-[600px] text-muted-foreground md:text-xl\">\n                Build beautiful, accessible, and performant web applications\n                with the power of modern tools and libraries.\n              </p>\n            </div>\n            <div className=\"flex flex-col gap-2 min-[400px]:flex-row\">\n              <Button size=\"lg\" className=\"gap-1.5\">\n                Get Started\n                <ArrowRight className=\"h-4 w-4\" />\n              </Button>\n              <Button size=\"lg\" variant=\"outline\">\n                Learn More\n              </Button>\n            </div>\n          </div>\n          <div className=\"hidden lg:flex items-center justify-center\">\n            <div className=\"relative h-full w-full\">\n              <div className=\"absolute inset-0 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-lg border border-border p-1\">\n                <div className=\"h-full w-full rounded-lg bg-background flex items-center justify-center\">\n                  <div className=\"text-4xl font-bold text-foreground/50\">\n                    Your Image Here\n                  </div>\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </section>\n  );\n}\n",
+      "type": "registry:component"
+    }
+  ]
+}
