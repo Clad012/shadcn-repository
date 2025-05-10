@@ -8,16 +8,8 @@
       "type": "registry:component",
       "title": "Authentification",
       "description": "A simple authentification component",
-      "registryDependencies": [
-        "better-auth",
-        "pg",
-        "sonner",
-        "button",
-        "input",
-        "label",
-        "textarea",
-        "card"
-      ],
+      "dependencies": ["better-auth", "pg", "sonner"],
+      "registryDependencies": ["button", "input", "label", "textarea", "card"],
       "files": [
         {
           "path": "registry/new-york/authentification/components/auth/sign-in.tsx",

@@ -4,10 +4,12 @@
   "type": "registry:component",
   "title": "Authentification",
   "description": "A simple authentification component",
-  "registryDependencies": [
+  "dependencies": [
     "better-auth",
     "pg",
-    "sonner",
+    "sonner"
+  ],
+  "registryDependencies": [
     "button",
     "input",
     "label",
